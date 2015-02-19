@@ -1,2 +1,1 @@
-# mikrowelle-template
-Mikrowelle OS-Template für mikrowelle.me
+Is halt ein Template, nech.
