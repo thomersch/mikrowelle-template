@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>{{ post.title }} | Mikrowelle | µ~ | Technikpodcast</title>
-	<link rel="stylesheet" href="/res/style.css" />
+	<link rel="stylesheet" href="/style.css" />
 	{% include 'head.tpl' with context %}
 </head>
 

@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>Mikrowelle | µ~ | Technikpodcast</title>
 	{% include 'head.tpl' with context %}
-	<link rel="stylesheet" type="text/css" href="res/style.css" />
+	<link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 
 <body>

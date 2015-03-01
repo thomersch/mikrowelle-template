@@ -1,0 +1,118 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:Helvetica, sans-serif;
+	background: #4A4A4A;
+}
+
+header {
+	height:12em;
+	background: #4A4A4A;
+	background: #333333;
+	color:white;
+}
+
+header svg, header embed, header img {
+	width:75%;
+	height:75%;
+	margin-top:1.5em;
+}
+
+#maincontent {
+	margin: 3em 0 0 33%;
+	width:50%;
+}
+
+#maincontent article {
+	background: #333333;
+	border-left: 1em solid #FB8A07;
+	color: white;
+	padding:1.5em;
+	line-height:1.5em;
+	margin-bottom: 2em;
+}
+
+#maincontent article h3 {
+	margin-bottom: 0.5em;
+}
+
+#maincontent article ul {
+	margin-left:1em;
+}
+
+#maincontent article .actions {
+	margin-top:1.5em;
+}
+
+a {
+	text-decoration: none;
+	color:#FB8A07;
+}
+
+.actions {
+	font-size:80%;
+}
+
+#backlink {
+	display: inline-block;
+	padding: 1em;
+	background-color: #333333;
+	border-left: 3px solid #FB8A07;
+	margin-bottom: 2em;
+}
+
+article audio, .podlovewebplayer_wrapper {
+	margin:1em 0 2em 0;
+}
+
+.podlovewebplayer_wrapper .episodetitle {
+	display: none;
+}
+
+.podlovewebplayer_meta .subtitle {
+	padding:1em 2em 1em 1em;
+	margin:0.5em;
+}
+
+.podlovewebplayer_wrapper .subtitle p {
+	font-size:120%;
+}
+
+@media screen and (max-device-width:800px) {
+	#maincontent {
+		/*font-size:250%;*/
+	}
+
+	header svg, header embed, header img {
+		margin-top:0em;
+		margin-left:5%;
+		width:90%;
+		height:100%;
+	}
+
+	#maincontent {
+		margin:0;
+		margin-top:1em;
+		width:100%;
+	}
+}
+
+#prev_episodes {
+	float: right;
+	text-align: right;
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: #333333;
+	border-right: 3px solid #FB8A07;
+}
+
+#new_episodes {
+	float: left;
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: #333333;
+	border-left: 3px solid #FB8A07;
+}
