@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Mikrowelle | µ~ | Technikpodcast</title>
-	{% include 'head.tpl' with context %}
+	{% include 'head.tpl' %}
 	<link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 
@@ -18,7 +18,7 @@
 		{% include 'meta_block.tpl' %}
 
 		{% for post in posts %}
-		{% include 'post.tpl' with context %}
+		{% include 'post.tpl' %}
 		{% endfor %}
 
 		{% if prev == 0 %}

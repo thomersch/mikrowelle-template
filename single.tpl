@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>{{ post.title }} | Mikrowelle | µ~ | Technikpodcast</title>
 	<link rel="stylesheet" href="/style.css" />
-	{% include 'head.tpl' with context %}
+	{% include "head.tpl" %}
 </head>
 
 <body>
@@ -17,9 +17,9 @@
 	<section id="maincontent">
 		<div id="backlink"><a href="/">zurück zur Übersicht</a></div>
 
-		{% include 'post.tpl' with context %}
+		{% include "post.tpl" %}
 
-		{% include 'meta_block.tpl' %}
+		{% include "meta_block.tpl" %}
 	</section>
 
 </body>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Mikrowelle | µ~ | Technikpodcast</title>
-	{% include 'head.tpl' with context %}
+	{% include 'head.tpl' %}
 	<link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 
