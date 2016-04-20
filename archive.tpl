@@ -21,8 +21,15 @@
 		<article>
 			<h3>{{ post.title }}</h3>
 			{{ post.subtitle }}
-			Dauer: {{ post.humanduration }} Stunden
-			<div class="actions">Veröffentlicht am: {{ post.humandate }}, <a href="{{ post.episode }}.html">Direktlink zur Episode</a>, Download: <a href="{{ settings.audio_base_url }}{{ post.filename }}.mp3">mp3</a>, <a href="{{ settings.audio_base_url }}{{ post.filename }}.opus">opus</a>, <a href="{{ settings.audio_base_url }}{{ post.filename }}.m4a">mp4</a></div>
+			Dauer: {{ post.humanduration }} h
+			<div class="actions">
+				Veröffentlicht am: {{ post.humandate }},
+				<a href="{{ post.episode }}.html">Direktlink</a>
+				Download:
+					{% for extension, mime in formats.items() %}
+						<a href="{{ settings.audio_base_url }}{{ post.filename }}.{{ extension }}">{{ extension }}</a>
+					{% endfor %}
+			</div>
 		</article>
 		{% endfor %}
 	</section>
