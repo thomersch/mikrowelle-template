@@ -6,7 +6,7 @@
 <body>
 	<audio preload="none">
 		{% for extension, mime in formats.items() %}
-			<source src="{{ settings.audio_base_url }}{{ post.filename }}.{{ extension }}" type="{{ mime }}"</source>
+			<source src="{{ settings.audio_base_url }}{{ post.filename }}.{{ extension }}" type="{{ mime }}">
 		{% endfor %}
 	</audio>
 

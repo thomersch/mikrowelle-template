@@ -3,7 +3,7 @@
 
 	<audio preload="none" controls="controls" data-podlove-web-player-source="player_{{post.episode}}.html">
 		{% for extension, mime in formats.iteritems() %}
-			<source src="{{ settings.audio_base_url }}{{ post.filename }}.{{ extension }}" type="{{ mime }}"</source>
+			<source src="{{ settings.audio_base_url }}{{ post.filename }}.{{ extension }}" type="{{ mime }}">
 		{% endfor %}
 	</audio>
 
