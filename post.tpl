@@ -15,10 +15,6 @@
 		</section>
 	{% endif %}
 
-	<div style="margin-top:1em;">
-		<a href="{{ settings.base_url }}{{ post.episode }}.html" title="{{ post.title }}" data-flattr-uid="thomersch" data-flattr-tags="podcast" data-flattr-category="audio" class="FlattrButton" style="display:none" >{{ post.subtitle }}</a>
-	</div>
-
 	<div class="actions">
 		Veröffentlicht am: {{ post.humandate }},
 		<a href="{{ post.episode }}.html">Direktlink</a>

@@ -7,7 +7,5 @@
 <script>
 	$(function() {
 		$('audio').podlovewebplayer();
-
-		!function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.type="text/javascript",a.async=!0,a.src="//api.flattr.com/js/0.6/load.js?mode=auto&button=compact&popout=0",b.parentNode.insertBefore(a,b)}();
-	})
+	});
 </script>
